@@ -1,0 +1,24 @@
+.container{
+    padding: 0.8rem;
+    max-width: 500px;
+    min-width: 200px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left .navbar-item{
+    text-decoration: none;
+    color: grey;
+    font: 1.6em sans-serif;
+}
+.navbar-right .navbar-nav{
+    list-style:none;
+}
+.navbar-right .navbar-nav li a{
+    text-decoration: none;
+    color: grey;
+    font: 1.6em sans-serif;
+}

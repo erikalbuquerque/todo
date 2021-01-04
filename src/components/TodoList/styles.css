@@ -1,0 +1,29 @@
+.table {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.table caption {
+  margin: 0.8rem 0;
+  color: grey;
+  font: 1.2em sans-serif;
+  align-self: flex-start;
+}
+
+.table thead tr {
+  display: grid;grid-template-columns: 0px minmax(100px, 250px) 0;
+  
+}
+
+/*.table thead tr .table-item-id {
+  grid-area: id;
+}
+.table thead tr .table-item-title {
+   color: grey;
+}*/
+
+.table thead tr th {
+  color: #9d9b9d;
+  font: 1.2em sans-serif;
+}

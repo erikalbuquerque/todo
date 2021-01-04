@@ -1,0 +1,13 @@
+.row {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: 100px minmax(100px, 300px) 100px;
+}
+.row .row-title {
+  color: #242424;
+  font-weight: 600;
+}
+.row .row-button button {
+  border: none;
+  cursor: pointer;
+}

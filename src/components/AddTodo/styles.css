@@ -1,0 +1,37 @@
+
+.form {
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h4 {
+    margin: 0.8rem 0;
+    color: grey;
+    font: 1.2em sans-serif;
+    align-self: flex-start;
+}
+
+.form .input-title input{
+    width: 20rem;
+    padding: 0.8rem;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 0.8rem;
+    font: 1.2em sans-serif;
+}
+.form .button-submit button{
+    width: 10rem;
+    padding: 0.4rem 0.8rem;
+    margin-top: 1.6rem;
+    border: none;
+    background: #80B34C;
+    cursor: pointer;
+    color: #f5f5f5;
+    font: 1.2em sans-serif;
+    border-radius: 0.8rem;
+}
+.form .button-submit button:hover{
+    background: #759F4B;
+}
